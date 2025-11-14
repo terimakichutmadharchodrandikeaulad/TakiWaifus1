@@ -2,18 +2,18 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    OWNER_ID = "6117482949"
-    sudo_users = "6117482949", "6699045552", "6570434731"
-    GROUP_ID = -1002119971614
-    TOKEN = "6980178795:AAEBUZDJsLta5IbcXBRaq3pSjhAZMXFvrlM"
-    mongo_url = "mongodb+srv://kuldiprathod2003:kuldiprathod2003@cluster0.wxqpikp.mongodb.net/?retryWrites=true&w=majority"
-    PHOTO_URL = ["https://telegra.ph/file/2767b2d21e0667a81a364.jpg", "https://telegra.ph/file/091c080e387799aad5536.jpg", "https://telegra.ph/file/1926c7c608d2c2b891ff1.jpg"]
-    SUPPORT_CHAT = "anime_x_god_group"
-    UPDATE_CHAT = "anime_x_god"
-    BOT_USERNAME = "taki_waifus_bot"
+    OWNER_ID = "7524032836"
+    sudo_users = "8285724366", "8494985365", "7139800986"
+    GROUP_ID = -1003149311859
+    TOKEN = "8239143373:AAEnZAN1YtQmSWav4ZkgC4BQXhvmXlTpz7U"
+    mongo_url = "mongodb+srv://rj5706603:O95nvJYxapyDHfkw@cluster0.fzmckei.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    PHOTO_URL = ["https://envs.sh/u3o.jpg/IMG20250817833.jpg", "https://envs.sh/GhJ.jpg/IMG20250925634.jpg", "https://envs.sh/GhJ.jpg/IMG20250925634.jpg"]
+    SUPPORT_CHAT = "narzofamily"
+    UPDATE_CHAT = "narzoxbot"
+    BOT_USERNAME = "narzowaifubot"
     CHARA_CHANNEL_ID = "-1002017843882"
-    api_id = 25997075
-    api_hash = "8f7d4aba2280fa063694064beba34d7d"
+    api_id = 23562992
+    api_hash = "e070a310ca3e76ebc044146b9829237c"
 
     
 class Production(Config):
