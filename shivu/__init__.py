@@ -32,8 +32,8 @@ sudo_users = Config.SUDO_USERS
 OWNER_ID = Config.OWNER_ID 
 
 application = Application.builder().token(TOKEN).build()
-shivuu = Client("Shivu", api_id, api_hash, bot_token=TOKEN)
-lol = AsyncIOMotorClient(mongo_url)
+shivuu = Client("Shivu", API_ID, API_HASH, bot_token=TOKEN)
+lol = AsyncIOMotorClient(MONGO_URL)
 db = lol['Character_catcher']
 collection = db['anime_characters_lol']
 user_totals_collection = db['user_totals_lmaoooo']
