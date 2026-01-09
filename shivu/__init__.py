@@ -18,8 +18,8 @@ LOGGER = logging.getLogger(__name__)
 from shivu.config import Development as Config
 
 
-api_id = Config.api_id
-api_hash = Config.api_hash
+api_id = Config.API_ID
+api_hash = Config.API_HASH
 TOKEN = Config.TOKEN
 GROUP_ID = Config.GROUP_ID
 CHARA_CHANNEL_ID = Config.CHARA_CHANNEL_ID 
