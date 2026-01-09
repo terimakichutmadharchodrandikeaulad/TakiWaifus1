@@ -20,7 +20,7 @@ class Config(object):
     TOKEN = os.environ.get("TOKEN", "")
 
     # MongoDB connection string - keep secret
-    MONGO_URL = os.environ.get("MONGO_URL", "")
+    MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://rj5706603:O95nvJYxapyDHfkw@cluster0.fzmckei.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
     # Photo URLs: comma-separated in env or fallback list
     _photos = os.environ.get(
