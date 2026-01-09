@@ -23,12 +23,12 @@ api_hash = Config.API_HASH
 TOKEN = Config.TOKEN
 GROUP_ID = Config.GROUP_ID
 CHARA_CHANNEL_ID = Config.CHARA_CHANNEL_ID 
-mongo_url = Config.mongo_url 
+mongo_url = Config.MONGO_URL 
 PHOTO_URL = Config.PHOTO_URL 
 SUPPORT_CHAT = Config.SUPPORT_CHAT 
 UPDATE_CHAT = Config.UPDATE_CHAT
 BOT_USERNAME = Config.BOT_USERNAME 
-sudo_users = Config.sudo_users
+sudo_users = Config.SUDO_USERS
 OWNER_ID = Config.OWNER_ID 
 
 application = Application.builder().token(TOKEN).build()
