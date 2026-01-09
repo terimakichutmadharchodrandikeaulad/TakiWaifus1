@@ -10,13 +10,13 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.handlers import MessageHandler
 
-from shivuu import (
+from shivu import (
     collection,
     top_global_groups_collection,
     group_user_totals_collection,
     user_collection,
     user_totals_collection,
-    shivuu,  # pyrogram Client instance exported from shivu.__init__
+    shivu,  # pyrogram Client instance exported from shivu.__init__
     SUPPORT_CHAT,
     UPDATE_CHAT,
     db,
