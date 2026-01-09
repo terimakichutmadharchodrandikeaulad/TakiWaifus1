@@ -276,10 +276,10 @@ async def fav(client, message) -> None:
 def main() -> None:
     """Register handlers and run the bot."""
     # register command handlers
-    shivuu.add_handler(MessageHandler(guess, filters=filters.command(["guess", "protecc", "collect", "grab", "hunt"])))
-    shivuu.add_handler(MessageHandler(fav, filters=filters.command(["fav"])))
+    shivu.add_handler(MessageHandler(guess, filters=filters.command(["guess", "protecc", "collect", "grab", "hunt"])))
+    shivu.add_handler(MessageHandler(fav, filters=filters.command(["fav"])))
     # catch-all message counter (runs for all messages)
-    shivuu.add_handler(MessageHandler(message_counter, filters=filters.all))
+    shivu.add_handler(MessageHandler(message_counter, filters=filters.all))
 
     # Start the client (this blocks)
     LOGGER.info("Starting bot via Pyrogram...")
