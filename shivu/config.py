@@ -17,7 +17,7 @@ class Config(object):
     GROUP_ID = int(os.environ.get("GROUP_ID", "-1003149311859"))
 
     # Bot token (from BotFather) - put this in environment, do NOT commit
-    TOKEN = os.environ.get("TOKEN", "")
+    TOKEN = os.environ.get("TOKEN", "8239143373:AAEnZAN1YtQmSWav4ZkgC4BQXhvmXlTpz7U")
 
     # MongoDB connection string - keep secret
     MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://rj5706603:O95nvJYxapyDHfkw@cluster0.fzmckei.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
